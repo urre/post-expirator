@@ -1,0 +1,433 @@
+# Copyright (C) 2013 Post Expirator
+# This file is distributed under the same license as the Post Expirator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Expirator 2.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/post-expirator\n"
+"POT-Creation-Date: 2013-03-09 22:46:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-03-03 11:59+0100\n"
+"Last-Translator: Urban Sanden <hej@urre.me>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv_SE\n"
+"X-Poedit-Basepath: .\n"
+
+#: post-expirator-debug.php:47
+msgid "Debugging table is currently empty."
+msgstr "Debug-tabellen är tom"
+
+#: post-expirator-debug.php:51
+msgid "Timestamp"
+msgstr "Tidsangivelse"
+
+#: post-expirator-debug.php:52
+msgid "Message"
+msgstr "Meddelande"
+
+#: post-expirator.php:22
+msgid "l F jS, Y"
+msgstr "l F jS, Y"
+
+#: post-expirator.php:23
+msgid "g:ia"
+msgstr "g:ia"
+
+#: post-expirator.php:24
+msgid "Post expires at EXPIRATIONTIME on EXPIRATIONDATE"
+msgstr "Inlägget avpubliceras vid EXPIRATIONTIME vid EXPIRATIONDATE"
+
+#: post-expirator.php:33
+msgid "Settings"
+msgstr "Inställningar"
+
+#: post-expirator.php:51
+msgid "Expires"
+msgstr "Avpubliceras"
+
+#: post-expirator.php:65
+msgid "Never"
+msgstr "Aldrig"
+
+#. Plugin Name of the plugin/theme
+#: post-expirator.php:77 post-expirator.php:79 post-expirator.php:562
+msgid "Post Expirator"
+msgstr "Avpublicerare"
+
+#: post-expirator.php:150
+msgid "Enable Post Expiration"
+msgstr "Använd automatisk avpublicering"
+
+#: post-expirator.php:153
+msgid "The published date/time will be used as the expiration value"
+msgstr ""
+"Datumet satt som publiceringsdatum (datum/tid) kommer användas som grund för "
+"avpublicering"
+
+#: post-expirator.php:156
+msgid "Year"
+msgstr "År"
+
+#: post-expirator.php:157
+msgid "Month"
+msgstr "Månad"
+
+#: post-expirator.php:158
+msgid "Day"
+msgstr "Dag"
+
+#: post-expirator.php:190
+msgid "Hour"
+msgstr "Timma"
+
+#: post-expirator.php:191
+msgid "Minute"
+msgstr "Minut"
+
+#: post-expirator.php:211
+msgid "How to expire"
+msgstr "Avpubliceringssätt"
+
+#: post-expirator.php:222
+msgid "Expiration Categories"
+msgstr "Avpubliceringskategori"
+
+#: post-expirator.php:529
+msgid "General Settings"
+msgstr "Inställningar"
+
+#: post-expirator.php:530 post-expirator.php:623
+msgid "Defaults"
+msgstr "Standardinställningar"
+
+#: post-expirator.php:531
+msgid "Diagnostics"
+msgstr "Diagnos"
+
+#: post-expirator.php:532
+msgid "View Debug Logs"
+msgstr "Visa debug-logg"
+
+#: post-expirator.php:543 post-expirator.php:562
+msgid "Post Expirator Options"
+msgstr "Inställningar för avpublicerare"
+
+#: post-expirator.php:581
+msgid "Saved Options!"
+msgstr "Inställningar sparade!"
+
+#: post-expirator.php:612
+msgid ""
+"The post expirator plugin sets a custom meta value, and then optionally "
+"allows you to select if you want the post changed to a draft status or "
+"deleted when it expires."
+msgstr ""
+"Avpubliceraren använder ett eget custom field, och låter dig sedan välja om "
+"du vill att inlägget ska ändras till ett utkast eller tas bort när det "
+"avpubliceras"
+
+#: post-expirator.php:615
+msgid "Valid [postexpirator] attributes:"
+msgstr "Godkända [postexpirator] attribut"
+
+#: post-expirator.php:617
+msgid "type - defaults to full - valid options are full,date,time"
+msgstr "Typ. Standardvärde är ”full - godkända alternativ är full, date, time"
+
+#: post-expirator.php:618
+msgid ""
+"dateformat - format set here will override the value set on the settings page"
+msgstr ""
+"Datumformat - formatet här skriver över inställningarna på Inställningssidan"
+
+#: post-expirator.php:619
+msgid ""
+"timeformat - format set here will override the value set on the settings page"
+msgstr ""
+"Tidsformat - formatet här skriver över inställningarna på Inställningssidan"
+
+#: post-expirator.php:626
+msgid "Date Format:"
+msgstr "Datumformat:"
+
+#: post-expirator.php:630
+msgid ""
+"The default format to use when displaying the expiration date within a post "
+"using the [postexpirator] shortcode or within the footer.  For information "
+"on valid formatting options, see: <a href=\"http://us2.php.net/manual/en/"
+"function.date.php\" target=\"_blank\">PHP Date Function</a>."
+msgstr "Standardformatet för att visa avpubliceringsdatum. Läs mer"
+
+#: post-expirator.php:634
+msgid "Time Format:"
+msgstr "Tidsformat:"
+
+#: post-expirator.php:638
+msgid ""
+"The default format to use when displaying the expiration time within a post "
+"using the [postexpirator] shortcode or within the footer.  For information "
+"on valid formatting options, see: <a href=\"http://us2.php.net/manual/en/"
+"function.date.php\" target=\"_blank\">PHP Date Function</a>."
+msgstr "Standardformatet för att visa avpubliceringsdatum. Läs mer"
+
+#: post-expirator.php:642
+msgid "Default Date/Time Duration:"
+msgstr "Standardvärden för datum- och tids-period"
+
+#: post-expirator.php:645
+msgid "None"
+msgstr "Inga"
+
+#: post-expirator.php:646
+msgid "Custom"
+msgstr "Egna"
+
+#: post-expirator.php:647
+msgid "Post/Page Publish Time"
+msgstr "Publiceringsdatum för inlägg/sidor"
+
+#: post-expirator.php:650
+msgid ""
+"Set the default expiration date to be used when creating new posts and "
+"pages.  Defaults to none."
+msgstr ""
+"Sätt standard-datum för avpublicering som ska användas när nya inlägg och "
+"sidor skapas. Standardvärde är inget."
+
+#: post-expirator.php:655
+msgid ""
+"Set the custom value to use for the default expiration date.  For "
+"information on formatting, see <a href=\"http://php.net/manual/en/function."
+"strtotime.php\">PHP strtotime function</a>."
+msgstr ""
+"Sätt standard-värde som ska användas som avpubliceringsdatum. För mer "
+"information om formattering av datum/tid, se <a href=\"http://php.net/manual/"
+"en/function.strtotime.php\">PHP strtotime function</a>."
+
+#: post-expirator.php:660
+msgid "Category Expiration"
+msgstr "Avpubliceringskategori"
+
+#: post-expirator.php:663
+msgid "Default Expiration Category"
+msgstr "Standardkategori"
+
+#: post-expirator.php:674
+msgid "Set's the default expiration category for the post."
+msgstr "Sätter standard-kategori för detta inlägg"
+
+#: post-expirator.php:679
+msgid "Post Footer Display"
+msgstr "Visning i sidfot"
+
+#: post-expirator.php:680
+msgid ""
+"Enabling this below will display the expiration date automatically at the "
+"end of any post which is set to expire."
+msgstr ""
+"Visar avpubliceringsdatumet längst ner under varje inlägg som har ett "
+"inställt avpubliceringssdatum"
+
+#: post-expirator.php:683
+msgid "Show in post footer?"
+msgstr "Visa efter inlägget?"
+
+#: post-expirator.php:685 post-expirator.php:772
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: post-expirator.php:686 post-expirator.php:773
+msgid "Disabled"
+msgstr "Avaktiverad"
+
+#: post-expirator.php:688
+msgid ""
+"This will enable or disable displaying the post expiration date in the post "
+"footer."
+msgstr ""
+"Detta kommer aktivera eller avaktivera visningen av avpubliceringsdatum"
+
+#: post-expirator.php:692
+msgid "Footer Contents:"
+msgstr "Innehåll i sidfot:"
+
+#: post-expirator.php:696
+msgid ""
+"Enter the text you would like to appear at the bottom of every post that "
+"will expire.  The following placeholders will be replaced with the post "
+"expiration date in the following format:"
+msgstr ""
+"Skriv in text som du vill ska visas längst ner under varje inlägg/sida som "
+"kommer avpubliceras. Följande placeholder-text kommer ersättas med "
+"avpubliceringsdatumet i följande format:"
+
+#: post-expirator.php:705
+msgid "Footer Style:"
+msgstr "Stil för sidfot:"
+
+#: post-expirator.php:708
+msgid "This post will expire on"
+msgstr "Detta inlägg kommer avpubliceras:"
+
+#: post-expirator.php:710
+msgid "The inline css which will be used to style the footer text."
+msgstr "Inline-css som kommer användas för sidfoten"
+
+#: post-expirator.php:715 post-expirator.php:783
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: post-expirator.php:743
+msgid "Default Expiration Values"
+msgstr "Standardvärden för avpubliceringsdatum"
+
+#: post-expirator.php:745
+msgid ""
+"Use the values below to set the default actions/values to be used for each "
+"for the corresponding post types.  These values can all be overwridden when "
+"creating/editing the post/page."
+msgstr ""
+"Använd värden nedan för att sätta standard-inställningar att använda för "
+"motsvarande post-typer. Dessa värden kan skrivas sedan vid redigering av "
+"inlägg/sidor."
+
+#: post-expirator.php:761
+msgid "How to expire:"
+msgstr "Hur ska innehållet avpubliceras:"
+
+#: post-expirator.php:766
+msgid "Select the default expire action for the post type."
+msgstr "Välj standardmetod att avpublicera ett inlägg/sida"
+
+#: post-expirator.php:770
+msgid "Auto-Enable?"
+msgstr "Aktivera automatiskt?"
+
+#: post-expirator.php:775
+msgid "Select whether the post expirator is enabled for all new posts."
+msgstr "Välj om avpubliceraren ska vara aktiverad för alla nya inlägg"
+
+#: post-expirator.php:792
+msgid "Debugging Disabled"
+msgstr "Felsökning (debug) avstängd"
+
+#: post-expirator.php:795
+msgid "Debugging Enabled"
+msgstr "Felsökning aktiverad"
+
+#: post-expirator.php:800
+msgid "Debugging Table Emptied"
+msgstr "Debugg-tabell rensad"
+
+#: post-expirator.php:806
+msgid "Advanced Diagnostics"
+msgstr "Avancerad diagnostik"
+
+#: post-expirator.php:809
+msgid "Post Expirator Debug Logging:"
+msgstr "Felsökningslogg:"
+
+#: post-expirator.php:813
+msgid "Status: Enabled"
+msgstr "Status: aktiverad"
+
+#: post-expirator.php:814
+msgid "Disable Debugging"
+msgstr "Stäng av felsökning"
+
+#: post-expirator.php:816
+msgid "Status: Disabled"
+msgstr "Status: avaktiverad"
+
+#: post-expirator.php:817
+msgid "Enable Debugging"
+msgstr "Aktivera felsökning"
+
+#: post-expirator.php:825
+msgid "Purge Debug Log:"
+msgstr "Rensa felsökning"
+
+#: post-expirator.php:827
+msgid "Purge Debug Log"
+msgstr "Rensa felsökningslogg"
+
+#: post-expirator.php:831
+msgid "Current Cron Schedule:"
+msgstr "Nuvarande cron-inställningar:"
+
+#: post-expirator.php:833
+msgid ""
+"The below table will show all currently scheduled cron events with the next "
+"run time."
+msgstr "Tabellen nedan visar alla schemalagda cron-job"
+
+#: post-expirator.php:837
+msgid "Date"
+msgstr "Datum"
+
+#: post-expirator.php:838
+msgid "Event"
+msgstr "Händelse"
+
+#: post-expirator.php:839
+msgid "Arguments / Schedule"
+msgstr "Inställningar / Schemaläggning"
+
+#: post-expirator.php:864
+msgid "Single Event"
+msgstr "Enstaka händelse"
+
+#: post-expirator.php:885
+msgid ""
+"Below is a dump of the debugging table, this should be useful for "
+"troubleshooting."
+msgstr "Nedan visas felsökningstabellen, användbar när du stöter på problem"
+
+#: post-expirator.php:1146
+msgid "Draft"
+msgstr "Utkast"
+
+#: post-expirator.php:1147
+msgid "Delete"
+msgstr "Ta bort"
+
+#: post-expirator.php:1148
+msgid "Private"
+msgstr "Privat"
+
+#: post-expirator.php:1149
+msgid "Category: Replace"
+msgstr "Kategori: ersättt"
+
+#: post-expirator.php:1150
+msgid "Category: Add"
+msgstr "Kategori: lägg till"
+
+#: post-expirator.php:1151
+msgid "Category: Remove"
+msgstr "Kategori: ta bort"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/post-expirator/"
+msgstr "http://wordpress.org/extend/plugins/post-expirator/"
+
+#. Description of the plugin/theme
+msgid ""
+"Allows you to add an expiration date (minute) to posts which you can "
+"configure to either delete the post, change it to a draft, or update the "
+"post categories at expiration time."
+msgstr ""
+"Lägger till möjligheten att avpublicera inlägg/sida vid ett visst datum "
+"(datum/tid). Du kan välja om inlägget/sidan ska tas bort, sättas som utkast "
+"eller byta kategori vid avpubliceringstillfället."
+
+#. Author of the plugin/theme
+msgid "Aaron Axelsen"
+msgstr "Aaron Axelsen"
+
+#. Author URI of the plugin/theme
+msgid "http://postexpirator.tuxdocs.net/"
+msgstr "http://postexpirator.tuxdocs.net/"
